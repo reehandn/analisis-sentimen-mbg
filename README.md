@@ -151,10 +151,7 @@ Notebook ini menggunakan paket berikut:
 
 > Catatan: `data_komentar_mbg_train` adalah subset 2000 data dari preprocessing dan bukan nama file tunggal dalam repositori. File inference yang digunakan adalah `data_komentar_mbg.csv`.
 
-## Output Penting
+## Output Hasil
+<img width="1661" height="971" alt="image" src="https://github.com/user-attachments/assets/31a57e2d-a53b-4251-95f9-d5b618f5daaf" />
 
-- `data_komentar_mbg_scraping.xlsx`
-- `data_komentar_mbg_preprocessing.xlsx`
-- `data_komentar_mbg.csv` (inference)
-- `data_komentar_mbg_labeled.xlsx`
-- Model hasil training IndoBERT untuk prediksi
+Berdasarkan 10.653 komentar, sentimen negatif menjadi kategori terbanyak dengan 4.797 komentar (45,03%), diikuti positif 4.523 (42,46%) dan netral 1.333 (12,51%). Pada distribusi emosi, Marah mendominasi dengan 3.808 komentar, sedangkan berdasarkan intensitas, kategori Rendah menjadi yang paling banyak dengan 6.085 komentar. Dari sisi aspek, Anggaran paling sering muncul dengan 2.758 komentar, diikuti Program (2.697) dan Program (2.517). Hasil ini menunjukkan bahwa pembahasan MBG didominasi isu terkait anggaran, program, distribusi, dan pemerintahan.
